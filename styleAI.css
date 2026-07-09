@@ -1,0 +1,73 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #0f172a;
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #111827;
+}
+
+/* Logo */
+.logo a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Right Side */
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+/* Navigation */
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.nav-links a:hover{
+    color: #38bdf8;
+}
+
+/* Hire Me Button */
+.hire-btn{
+    text-decoration: none;
+    background: #38bdf8;
+    color: #fff;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.hire-btn:hover{
+    background: #0ea5e9;
+    transform: translateY(-2px);
+}
+
